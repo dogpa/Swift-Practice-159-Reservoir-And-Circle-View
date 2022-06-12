@@ -11,6 +11,10 @@
 		2D493E032855A6AF00D5AF87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D493E022855A6AF00D5AF87 /* ContentView.swift */; };
 		2D493E052855A6B000D5AF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D493E042855A6B000D5AF87 /* Assets.xcassets */; };
 		2D493E082855A6B000D5AF87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D493E072855A6B000D5AF87 /* Preview Assets.xcassets */; };
+		2D493E292855C48400D5AF87 /* ReservoirInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D493E282855C48400D5AF87 /* ReservoirInfo.swift */; };
+		2D493E2B2855C85400D5AF87 /* ReservoirDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D493E2A2855C85400D5AF87 /* ReservoirDict.swift */; };
+		2D493E2F2855CC6900D5AF87 /* CirclePercentageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D493E2E2855CC6900D5AF87 /* CirclePercentageVIew.swift */; };
+		2D493E322855E32000D5AF87 /* ReservoirViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D493E312855E31F00D5AF87 /* ReservoirViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2D493E022855A6AF00D5AF87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D493E042855A6B000D5AF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D493E072855A6B000D5AF87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D493E282855C48400D5AF87 /* ReservoirInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservoirInfo.swift; sourceTree = "<group>"; };
+		2D493E2A2855C85400D5AF87 /* ReservoirDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservoirDict.swift; sourceTree = "<group>"; };
+		2D493E2E2855CC6900D5AF87 /* CirclePercentageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePercentageVIew.swift; sourceTree = "<group>"; };
+		2D493E312855E31F00D5AF87 /* ReservoirViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservoirViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				2D493E002855A6AF00D5AF87 /* Swift_Practice_159_Reservoir_And_Circle_ViewApp.swift */,
-				2D493E022855A6AF00D5AF87 /* ContentView.swift */,
+				2D493E2D2855CC3B00D5AF87 /* View */,
+				2D493E2C2855CC2F00D5AF87 /* Model */,
+				2D493E302855E30600D5AF87 /* ViewModel */,
 				2D493E042855A6B000D5AF87 /* Assets.xcassets */,
 				2D493E062855A6B000D5AF87 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				2D493E072855A6B000D5AF87 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D493E2C2855CC2F00D5AF87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D493E282855C48400D5AF87 /* ReservoirInfo.swift */,
+				2D493E2A2855C85400D5AF87 /* ReservoirDict.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D493E2D2855CC3B00D5AF87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D493E022855A6AF00D5AF87 /* ContentView.swift */,
+				2D493E2E2855CC6900D5AF87 /* CirclePercentageVIew.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D493E302855E30600D5AF87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D493E312855E31F00D5AF87 /* ReservoirViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D493E322855E32000D5AF87 /* ReservoirViewModel.swift in Sources */,
+				2D493E292855C48400D5AF87 /* ReservoirInfo.swift in Sources */,
+				2D493E2F2855CC6900D5AF87 /* CirclePercentageVIew.swift in Sources */,
 				2D493E032855A6AF00D5AF87 /* ContentView.swift in Sources */,
 				2D493E012855A6AF00D5AF87 /* Swift_Practice_159_Reservoir_And_Circle_ViewApp.swift in Sources */,
+				2D493E2B2855C85400D5AF87 /* ReservoirDict.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
